@@ -1290,41 +1290,7 @@ class Main:
 			else:
 				continue
 
-		self.loop +=1
+		
 
 
-def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrTALHA-cov', 'r').read()
-	clear()
-	print(logo)
-	r1=requests.get("https://github.com/Omiths/Romi-approval.txt/blob/main/Romi-approval.txt").text
-	if key1 in r1:
-		os.system('clear')
-		print(logo)
-		Main()
-	else:
-		os.system("clear")
-		print(logo)
-		print("\t \033[1;32m First Get Approvel\033[1;37m ")
-		time.sleep(1)
-		os.system("clear")
-		print(logo)
-		print ("")
-		print(" \033[1;32m ROMI Toll Paid You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid Tolls Free  HA JANI LOG \033[1;37m")
-		print ("")
-		print(" Your Key is Not Approved ")
-		print("")
-		print(" Copy And Send Key To Admin")
-		print ("")
-		print (" Your Key : "+ak+ROMI+key1)
-		print ("")
-		name = input(" Your Name : ")
-		print ("")
-		input(" Press Enter To Send Key")
-		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Talha+''+key1
-		os.system('am start https://wa.me/+8801304002896?text=' + tks)
-		Subscraption()  
 
-Subscraption()  
